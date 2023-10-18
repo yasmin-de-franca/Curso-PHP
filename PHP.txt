@@ -1,0 +1,53 @@
+COMO FUNCIONA O PHP?
+_PHP é uma linguagem Server Side que funciona em conjunto com HTML, CSS e JS que são tecnologias Client Side
+
+_CLIENT-SIDE(Lado Cliente)                    _SERVER-SIDE(Lado Servidor)
+
+Cliente é a maquina/dispositivo onde se faz a solicitação pros servidores. Faz-se uma REQUISIÇÃO(Request).
+
+Os serviodoes que vao atender à REQUISIÇÃO são os servidores de Nome de Domínio(DNS). O caminho digitado vai até o DNS, o DNS retorna o IP para o cliente e quando o cliente stá em posse desse endereço a Requisição e finalizada.
+
+Uma vez atingindo o servidor, o mesmo vai ter um conjunto de arquivos. Até aqui o processo é o mesmo para ambos os lados.
+
+-Lado do cliente = Somentes tecnologias para o mesmo
+-Lado Servidor = Podem ter as mesmas tecnologias Client Side e também Scripts Especifícos para Servidores (<?)
+
+CLIENT
+O cliente faz a solicitação e quando a mesma é atendida, quando o Request e finalizado, o servidor retorna uma RESPONSE(Resposta). Basicamente o servidor retorna uma cópia dos arquivos para o cliente onde o software mostra o resultado. O trabalho maior vai ser do cliente.
+
+SERVER
+Faz-se o mesmo processo de solicitação, porém antes dos arquivos serem repassados ao cliente, vai haver uma interpretação dos Scripts Especifícos, um interpretador PHP. Pode haver mais funcionalidades, como um banco de dados. O resultado desse processamento vai gerar outros arquivos e esses por fim vão ser geradas cópias para o Cliente. O trabalho maior vai ser do Servidor.
+
+
+{Front-End=Client-Side} + {Back-End=Server-Side} = Fullstack
+
+
+SÓ O PHP É TECNOLOGIA SERVER-SIDE?
+Existrem outras:
+°Microsoft.NET
+°Pearl
+°Java Server Page
+°JavaScript (SSJS)
+°Python
+°Ruby (Ruby On Rails)
+
+*Nem todas as linguagens foram pensadas para para rodar lado do servidor, foram adaptadas.
+
+
+O QUE CRIAR COM O PHP?
+°Sites
+°Lojas Online
+°Plataforma EAD
+*PHP não faz tudo assim como outras linguagens também não fazem.
+*Linguagem é ferramenta mas nem toda ferramenta serve para tudo.
+
+
+O QUE É NECESSÁRIO PARA RODAR PHP NA MÁQUINA?
+Cliente:
+1º Um navegador
+2º Um editor de código
+
+Servidor:
+1º Apache (soluçao para transformar máquina em servidor)
+2º MySQL (banco de dados)
+3º Interpretador PHP
